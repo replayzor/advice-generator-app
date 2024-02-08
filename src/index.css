@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px) {
+	.button-container {
+		left: 50%; /* Position button in the center horizontally */
+		transform: translateX(-50%); /* Center button horizontally */
+	}
+}
