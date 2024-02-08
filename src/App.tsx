@@ -58,6 +58,7 @@ function App() {
 				/>
 				<div className="relative flex items-center justify-center mt-6">
 					<button
+						aria-label="Get new advice"
 						onClick={handleClickAdvice}
 						type="submit"
 						className="absolute flex items-center justify-center w-16 h-16 p-4 transform -translate-x-1/2 rounded-full hover:shadow-2xl hover:shadow-primary-neonGreen bg-primary-neonGreen -top-8 left-1/2"
